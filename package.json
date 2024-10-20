@@ -1,0 +1,23 @@
+{
+  "name": "redis-cache",
+  "version": "1.0.0",
+  "description": "this repo is an example of how redis store or cache data for fast result .",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://sahilq312/sahilq312/redis-cache"
+  },
+  "author": "sahilq312",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "nodemon": "^3.1.7",
+    "redis": "^4.7.0"
+  }
+}
